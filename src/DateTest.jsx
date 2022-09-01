@@ -1,8 +1,8 @@
 import React from "react";
 
 function TarihTitle() {
-  const title = "Tarih ";
-  return <div>{title + Date.now()}</div>;
+  const metin = "Tarih ";
+  return <div>{metin + Date.now()}</div>;
 }
 
 export default TarihTitle;
