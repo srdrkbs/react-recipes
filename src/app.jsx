@@ -1,12 +1,15 @@
 import React from 'react';
+import TarihTitle from './DateTest';
 import RecipeTitle from './RecipeTitle'
+import './index.css'
 
 function App() {
     return (
-        <article>
-            <div>{ Date.now() }</div>
-            <h1>Test Yapılıyor</h1>
+        <article>            
             <RecipeTitle />
+            
+            <h1>Test Yapılıyor</h1>
+            <TarihTitle />
         </article>
     )
 }

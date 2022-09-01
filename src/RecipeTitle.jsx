@@ -1,10 +1,10 @@
-import React from 'react';
-
-function RecipeTitle() {
-    const title = 'Sayfa Başlığı';
+import React from "react";
+function RecipeTitle(props) {
     return (
-        <h2>{ title }</h2>
-    ) 
+        <section>
+            <h2>{ props.title }</h2>
+        </section>
+    )
 };
 
 export default RecipeTitle;
