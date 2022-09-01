@@ -12,3 +12,5 @@ const root = ReactDOMClient.createRoot(container);
 root.render(<App tab="home" />);
 // During an update, there's no need to pass the container again.
 root.render(<App tab="profile" />);
+
+// ReactDOM.render(<App />, document.getElementById("app"));
